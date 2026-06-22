@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GoBus · AI‑powered mobility</title>
+    <title>GoBus+ · AI multimodal · README</title>
     <!-- Font Awesome 6 (free) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <style>
@@ -12,8 +12,7 @@
             padding: 0;
             box-sizing: border-box;
         }
-
-        body {
+   body {
             background: #f5f9f5;
             font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
             display: flex;
@@ -23,7 +22,7 @@
             padding: 2rem 1rem;
         }
 
-        .card {
+.card {
             max-width: 960px;
             width: 100%;
             background: white;
@@ -34,13 +33,12 @@
             border: 1px solid #d0e6d0;
         }
 
-        /* header */
-        .brand {
+  .brand {
             text-align: center;
             margin-bottom: 2rem;
         }
 
-        .brand h1 {
+  .brand h1 {
             font-size: 3.8rem;
             font-weight: 700;
             letter-spacing: -1px;
@@ -50,7 +48,7 @@
             gap: 0.25rem;
         }
 
-        .brand h1 i {
+  .brand h1 i {
             font-size: 2.8rem;
             color: #2b7a2b;
             background: #e4f3e4;
@@ -58,7 +56,7 @@
             border-radius: 60px;
         }
 
-        .brand .sub {
+  .brand .sub {
             font-size: 1.6rem;
             font-weight: 400;
             color: #1f5f1f;
@@ -66,7 +64,7 @@
             letter-spacing: -0.3px;
         }
 
-        .brand .sub span {
+   .brand .sub span {
             background: #ddf0dd;
             padding: 0.1rem 1rem;
             border-radius: 40px;
@@ -75,7 +73,7 @@
             font-weight: 500;
         }
 
-        .tagline {
+  .tagline {
             text-align: center;
             font-size: 1.25rem;
             color: #235f23;
@@ -88,12 +86,12 @@
             backdrop-filter: blur(2px);
         }
 
-        .tagline i {
+  .tagline i {
             margin: 0 6px;
             color: #006400;
         }
 
-        .badge-group {
+  .badge-group {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -101,18 +99,18 @@
             margin: 1.2rem 0 1.8rem;
         }
 
-        .badge-group img {
+ .badge-group img {
             height: 32px;
             border-radius: 30px;
             transition: 0.2s;
         }
 
-        .badge-group img:hover {
+ .badge-group img:hover {
             transform: scale(1.02);
             box-shadow: 0 4px 10px rgba(0, 80, 0, 0.15);
         }
 
-        hr.divider {
+  hr.divider {
             margin: 2rem 0 1.8rem;
             border: 0;
             height: 3px;
@@ -120,15 +118,14 @@
             border-radius: 10px;
         }
 
-        /* grid features */
-        .feature-grid {
+  .feature-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 1.2rem 1.5rem;
             margin: 1.8rem 0 2rem;
         }
 
-        .feature-item {
+   .feature-item {
             background: #f6fcf6;
             padding: 1rem 1.2rem;
             border-radius: 40px;
@@ -143,7 +140,7 @@
             box-shadow: 0 2px 6px rgba(0, 30, 0, 0.02);
         }
 
-        .feature-item i {
+   .feature-item i {
             font-size: 1.4rem;
             width: 2rem;
             color: #006400;
@@ -152,27 +149,24 @@
             text-align: center;
             border-radius: 30px;
         }
-
-        .feature-item:hover {
+    .feature-item:hover {
             background: #e6f5e6;
             border-color: #4d9e4d;
             transform: translateY(-2px);
         }
 
-        .tech-stack {
+  .tech-stack {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 0.5rem 0.8rem;
             margin: 1rem 0 1.8rem;
         }
-
-        .tech-stack img {
+     .tech-stack img {
             height: 34px;
             border-radius: 30px;
             filter: drop-shadow(0 2px 4px rgba(0, 30, 0, 0.05));
         }
-
         .description {
             background: #fafffa;
             padding: 1.8rem 2rem;
@@ -181,19 +175,16 @@
             box-shadow: inset 0 1px 8px rgba(0, 50, 0, 0.02);
             margin: 1.6rem 0 2rem;
         }
-
         .description p {
             font-size: 1.2rem;
             line-height: 1.6;
             color: #103010;
             font-weight: 400;
         }
-
         .description strong {
             color: #004d00;
             font-weight: 600;
         }
-
         .ai-badge {
             background: #004d00;
             color: white;
@@ -205,7 +196,6 @@
             display: inline-block;
             margin-right: 6px;
         }
-
         .footer-tag {
             display: flex;
             flex-wrap: wrap;
@@ -218,7 +208,6 @@
             margin-top: 1.6rem;
             border: 1px solid #b9dbb9;
         }
-
         .footer-tag .left {
             display: flex;
             flex-wrap: wrap;
@@ -227,29 +216,24 @@
             font-weight: 500;
             color: #004d00;
         }
-
         .footer-tag .left i {
             font-size: 1.4rem;
         }
-
         .footer-tag .right {
             display: flex;
             gap: 0.8rem;
             color: #004d00;
         }
-
         .footer-tag .right i {
             font-size: 1.6rem;
             opacity: 0.75;
             transition: 0.2s;
         }
-
         .footer-tag .right i:hover {
             opacity: 1;
             transform: scale(1.1);
             color: #006400;
         }
-
         .demo-note {
             text-align: center;
             font-size: 0.9rem;
@@ -259,12 +243,25 @@
             padding-top: 1rem;
             letter-spacing: 0.2px;
         }
-
         .demo-note i {
             color: #006400;
             margin: 0 0.2rem;
         }
-
+        /* README specific – extra copy hint */
+        .readme-hint {
+            background: #e8f4e8;
+            padding: 0.6rem 1.4rem;
+            border-radius: 60px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #004d00;
+            display: inline-block;
+            margin-top: 0.5rem;
+            border: 1px solid #aaccaa;
+        }
+        .readme-hint i {
+            margin-right: 6px;
+        }
         @media (max-width: 600px) {
             .card {
                 padding: 1.8rem 1.2rem;
@@ -288,35 +285,31 @@
 <body>
 
 <div class="card">
-
     <!-- HEADER -->
     <div class="brand">
         <h1>
             <i class="fas fa-bus-alt"></i> GoBus<span style="font-weight:300;color:#2a7a2a;">+</span>
         </h1>
         <div class="sub">
-            <span><i class="fas fa-robot" style="margin-right:6px;"></i> AI‑powered mobility</span>
+            <span><i class="fas fa-robot" style="margin-right:6px;"></i> AI‑powered multimodal</span>
         </div>
     </div>
-
     <!-- TAGLINE -->
     <div style="text-align:center;">
         <div class="tagline">
             <i class="fas fa-route"></i> Book · Track · Combine <i class="fas fa-arrow-right"></i> Metro · Bus · Auto · Cab
         </div>
     </div>
-
     <!-- BADGES (status + version) -->
     <div class="badge-group">
         <img src="https://img.shields.io/badge/STATUS-LIVE-006400?style=for-the-badge&logo=vercel&logoColor=white" alt="status" />
         <img src="https://img.shields.io/badge/VERSION-2.0--AI-006400?style=for-the-badge&logo=openai&logoColor=white" alt="version" />
         <img src="https://img.shields.io/badge/BUILD-DEMO-006400?style=for-the-badge&logo=netlify&logoColor=white" alt="demo" />
         <img src="https://img.shields.io/badge/FIGMA-READY-006400?style=for-the-badge&logo=figma&logoColor=white" alt="figma" />
+        <img src="https://img.shields.io/badge/README-GITHUB-006400?style=for-the-badge&logo=github&logoColor=white" alt="github" />
     </div>
-
     <!-- divider -->
     <hr class="divider" />
-
     <!-- FEATURES (enhanced) -->
     <div class="feature-grid">
         <div class="feature-item"><i class="fas fa-brain"></i> AI Smart Route</div>
@@ -328,7 +321,6 @@
         <div class="feature-item"><i class="fas fa-bell"></i> Smart alerts</div>
         <div class="feature-item"><i class="fas fa-star"></i> AI recommendations</div>
     </div>
-
     <!-- TECH STACK (demo only: html, css, js, figma, netlify) -->
     <div class="tech-stack">
         <img src="https://img.shields.io/badge/HTML5-006400?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
@@ -336,12 +328,10 @@
         <img src="https://img.shields.io/badge/JavaScript-006400?style=for-the-badge&logo=javascript&logoColor=white" alt="JS" />
         <img src="https://img.shields.io/badge/Figma-006400?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
         <img src="https://img.shields.io/badge/Netlify-006400?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify" />
-        <!-- extra "no backend" hint -->
         <span style="background:#e1f0e1; padding:0.2rem 1.2rem; border-radius:40px; font-weight:500; color:#004d00; font-size:0.9rem; display:inline-flex;align-items:center;gap:6px;">
             <i class="fas fa-cloud-moon"></i> frontend demo
         </span>
     </div>
-
     <!-- DESCRIPTION (enhanced with AI + multi‑modal) -->
     <div class="description">
         <p>
@@ -357,7 +347,6 @@
             </span>
         </p>
     </div>
-
     <!-- FOOTER / TAGLINE + TOOLS -->
     <div class="footer-tag">
         <div class="left">
@@ -371,14 +360,71 @@
             <i class="fas fa-robot" title="AI layer (demo)"></i>
         </div>
     </div>
-
-    <!-- tiny demo note -->
+    <!-- README note – copy this block into your GitHub README.md -->
+    <div style="text-align:center; margin-top: 2rem;">
+        <div class="readme-hint">
+            <i class="fas fa-copy"></i> ↓ copy this entire card into your <strong>README.md</strong> ↓
+        </div>
+    </div>
     <div class="demo-note">
         <i class="fas fa-crown"></i> most advanced booking demo · AI mode · multi‑modal · 100% frontend <i class="fas fa-crown"></i>
     </div>
 
 </div>
 
-<!-- (no backend, pure html/css/js demo) -->
-</body>
-</html>
+<div align="center">
+
+# <i class="fas fa-bus-alt"></i> GoBus+ 
+
+### AI‑powered multimodal mobility
+**Book · Track · Combine** &nbsp; Metro · Bus · Auto · Cab
+<img src="https://img.shields.io/badge/STATUS-LIVE-006400?style=for-the-badge&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/VERSION-2.0--AI-006400?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/BUILD-DEMO-006400?style=for-the-badge&logo=netlify&logoColor=white" />
+<img src="https://img.shields.io/badge/FIGMA-READY-006400?style=for-the-badge&logo=figma&logoColor=white" />
+
+</div>
+
+---
+
+## ✨ Features
+
+- 🧠 **AI Smart Route** – multimodal suggestions  
+- 🚇 **Metro + Bus + Auto** – combine seamlessly  
+- 🚖 **Cab integration** – one‑tap booking  
+- 📍 **Live multi‑track** – real‑time visibility  
+- 🎫 **Digital pass** – paperless tickets  
+- 🔔 **Smart alerts** – predictive notifications  
+- ⭐ **AI recommendations** – based on your habits  
+
+---
+
+## 🛠️ Tech Stack (frontend demo)
+
+<img src="https://img.shields.io/badge/HTML5-006400?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-006400?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-006400?style=for-the-badge&logo=javascript&logoColor=white" />
+<img src="https://img.shields.io/badge/Figma-006400?style=for-the-badge&logo=figma&logoColor=white" />
+<img src="https://img.shields.io/badge/Netlify-006400?style=for-the-badge&logo=netlify&logoColor=white" />
+
+> ⚡ pure frontend · no backend · deployed on Netlify
+
+---
+
+## 📖 About
+
+**GoBus+** is an **AI‑first travel companion** that goes beyond buses.  
+It intelligently combines **metro, bus, auto‑rickshaw, and cab** into the optimal route.  
+Just tell the AI your start and end point – it suggests the fastest, cheapest, or greenest mix.  
+Includes live tracking, digital ticketing, and smart alerts – all in a demo frontend.
+
+---
+
+## 🚀 Live Demo
+
+👉 [View on Netlify](https://your-demo-link.netlify.app)  
+🎨 [Figma design](https://figma.com/your-link)
+
+---
+
+## 📁 Project Structure
