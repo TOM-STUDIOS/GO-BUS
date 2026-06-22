@@ -1,205 +1,186 @@
-# GoBus 🚍  
-**Smart Bus Booking & Mobility Platform**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GoBus README</title>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge&logo=github" alt="Status">
-  <img src="https://img.shields.io/badge/Version-2.0-blue?style=for-the-badge" alt="Version">
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
-  <img src="https://img.shields.io/badge/PRs-Welcome-orange?style=for-the-badge" alt="PRs">
-</p>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot" alt="Spring Boot">
-  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-</p>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
----
+body{
+    background:#0d1117;
+    color:#9eff9e;
+    font-family:'Press Start 2P', cursive;
+    padding:40px;
+    line-height:1.8;
+}
 
-## 📱 **Overview**
+.container{
+    max-width:1200px;
+    margin:auto;
+}
 
-**GoBus** is a smart bus booking and mobility platform designed to simplify travel through seamless ticket booking, real-time tracking, digital ticket management, and integrated transportation services. Travelers can search, compare, and book bus tickets with ease while enjoying a smooth and reliable travel experience. The platform aims to evolve beyond traditional bus booking by integrating multiple transportation services into a single ecosystem.
+.header{
+    text-align:center;
+    border:4px solid #00ff66;
+    padding:30px;
+    background:#051b0d;
+    box-shadow:0 0 20px #00ff66;
+}
 
----
+h1{
+    font-size:3rem;
+    color:#00ff66;
+    margin-bottom:20px;
+}
 
-## ✨ **Features**
+.subtitle{
+    color:#b6ffb6;
+}
 
-### 🚌 **Bus Ticket Booking**
-- Search buses by source and destination
-- View available schedules
-- Select preferred seats
-- Secure online payments
-- Instant booking confirmation
+.section{
+    margin-top:40px;
+    border:3px solid #00cc55;
+    padding:25px;
+    background:#08140b;
+}
 
-### 🎫 **Digital Tickets**
-- Paperless ticket management
-- QR-based boarding
-- Download and share tickets
+.section h2{
+    color:#00ff66;
+    margin-bottom:20px;
+}
 
-### 📍 **Live Tracking**
-- Real-time bus location tracking
-- Estimated arrival times
-- Journey status updates
+ul{
+    margin-left:25px;
+}
 
-### 🔔 **Smart Notifications**
-- Boarding reminders
-- Departure alerts
-- Booking and cancellation updates
+li{
+    margin-bottom:12px;
+}
 
-### 💳 **Multiple Payment Methods**
-- UPI
-- Debit/Credit Cards
-- Net Banking
-- Digital Wallets
+.tech-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
 
-### ⭐ **Reviews & Ratings**
-- Passenger feedback system
-- Service quality insights
+.card{
+    border:2px solid #00ff66;
+    padding:20px;
+    background:#0f1e13;
+}
 
----
+.footer{
+    text-align:center;
+    margin-top:40px;
+    border:3px solid #00ff66;
+    padding:25px;
+    background:#051b0d;
+}
 
-## 🎯 **Problem Statement**
+.pixel-line{
+    color:#00ff66;
+    overflow:hidden;
+    white-space:nowrap;
+    margin-bottom:15px;
+}
+</style>
+</head>
 
-Travelers often face:
-- ❌ Complicated booking processes
-- ❌ Multiple apps for different transport services
-- ❌ Limited real-time travel information
-- ❌ Difficulty managing tickets and schedules
+<body>
 
-**GoBus** addresses these challenges by providing a centralized and user-friendly travel platform.
+<div class="container">
 
----
+    <div class="header">
+        <div class="pixel-line">
+            ██████╗  ██████╗ ██████╗ ██╗   ██╗███████╗
+        </div>
 
-## 👥 **Target Users**
+        <h1>🚌 GoBus</h1>
 
-<table>
-  <tr>
-    <td align="center"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/student.svg" width="40" height="40"/><br /><b>Students</b><br />Affordable travel<br />Easy daily commuting</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/workspace.svg" width="40" height="40"/><br /><b>Professionals</b><br />Quick booking<br />Reliable schedules</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/family.svg" width="40" height="40"/><br /><b>Families</b><br />Group bookings<br />Comfortable travel</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/airbnb.svg" width="40" height="40"/><br /><b>Tourists</b><br />Route discovery<br />Hassle-free reservations</td>
-  </tr>
-</table>
+        <p class="subtitle">
+            Smart Bus Booking Platform
+        </p>
+    </div>
 
----
+    <div class="section">
+        <h2>🎯 About</h2>
 
-## 🚀 **Future Roadmap**
+        <p>
+            GoBus is a smart mobility platform that enables users
+            to search, compare and book bus tickets quickly while
+            providing a seamless travel experience.
+        </p>
+    </div>
 
-| Feature | Status | Description |
-|---------|--------|-------------|
-| 🚇 Metro Integration | 🔜 Planned | Plan journeys across buses and metro services |
-| 🤖 AI Travel Assistant | 🔜 Planned | Route recommendations, delay predictions, personalized suggestions |
-| 🎓 Student Benefits | 🔜 Planned | Discount programs, campus transportation support |
-| 📦 Parcel Delivery | 🔜 Planned | Send and track parcels through partner bus networks |
-| 🏨 Travel Ecosystem | 🔜 Planned | Hotel booking, local transport integration, travel packages |
+    <div class="section">
+        <h2>✨ Features</h2>
 
----
+        <ul>
+            <li>🚌 Bus Ticket Booking</li>
+            <li>📍 Real-Time Bus Tracking</li>
+            <li>🎫 Digital Tickets</li>
+            <li>💳 Secure Payments</li>
+            <li>🔔 Smart Notifications</li>
+            <li>⭐ Ratings & Reviews</li>
+        </ul>
+    </div>
 
-## 🏆 **Unique Selling Point**
+    <div class="section">
+        <h2>⚙️ Tech Stack</h2>
 
-> **GoBus is not just a bus booking app.**
+        <div class="tech-grid">
 
-It aims to become a **complete mobility hub**, connecting:
+            <div class="card">
+                <h3>Frontend</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
 
-```mermaid
-graph LR
-    A[🚌 Bus] --> E[🌐 Complete Mobility Hub]
-    B[🚇 Metro] --> E
-    C[🚕 Local Transport] --> E
-    D[🤖 AI Travel Assistant] --> E
+            <div class="card">
+                <h3>Backend</h3>
+                <p>Spring Boot</p>
+            </div>
+
+            <div class="card">
+                <h3>Database</h3>
+                <p>MySQL</p>
+            </div>
+
+            <div class="card">
+                <h3>APIs</h3>
+                <p>Maps, Payment Gateway</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🚀 Future Roadmap</h2>
+
+        <ul>
+            <li>🚇 Metro Integration</li>
+            <li>🤖 AI Travel Assistant</li>
+            <li>🎓 Student Benefits</li>
+            <li>📦 Parcel Delivery</li>
+            <li>🌍 Multi-Modal Transport</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <h2>🟩 GoBus</h2>
+        <p>Smart Travel Starts Here</p>
+    </div>
+
+</div>
+
+</body>
+</html>
 ```
-
-**within a single platform.**
-
----
-
-## 🛠️ **Tech Stack**
-
-<details>
-<summary><b>Click to expand</b></summary>
-
-### Frontend
-- ⚛️ React (Planned)
-- 🎨 HTML5 & CSS3
-- ⚡ JavaScript (ES6+)
-
-### Backend
-- 🖥️ Node.js / Spring Boot
-- 🔄 RESTful APIs
-
-### Database
-- 🗄️ MySQL / PostgreSQL
-- 🔐 Secure data management
-
-### APIs
-- 🗺️ Maps API
-- 💳 Payment Gateway API
-- 🚌 Bus Tracking API
-
-</details>
-
----
-
-## 📱 **Vision**
-
-> *To create India's most accessible and intelligent transportation platform that makes travel simple, connected, and efficient for everyone.*
-
----
-
-## 🚀 **Getting Started**
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/gobus.git
-
-# Navigate to project directory
-cd gobus
-
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-```
-
----
-
-## 🤝 **Contributing**
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md).
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📞 **Contact**
-
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Website-GoBus-blue?style=for-the-badge&logo=google-chrome" alt="Website"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-</p>
-
----
-
-<p align="center">Made with ❤️ by the GoBus Team</p>
-<p align="center">
-  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love">
-  <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" alt="Powered by Coffee">
-</p>
