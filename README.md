@@ -6,6 +6,9 @@ GoBus is an intelligent mobility platform designed to simplify everyday travel b
 
 With smart route planning, real-time tracking, digital ticket management, and AI-powered travel recommendations, GoBus helps users discover the most efficient and convenient way to reach their destination. By combining different modes of transport into a seamless journey, GoBus aims to make urban mobility smarter, faster, and more accessible.
 
+<h3>Features</h3>
+
+<h4 data-importer="text" align="center">AI Route Planning<br>        ↓<br>Journey Discovery<br>        ↓<br>Metro • Bus • Auto • Cab<br>        ↓<br>Real-Time Tracking<br>        ↓<br>Digital Ticketing<br>        ↓<br>Secure Payments<br>        ↓<br>Travel Alerts<br>        ↓<br>Personalized Recommendations<br>        ↓<br>Smart Mobility Experience</h4>
 
 
 
