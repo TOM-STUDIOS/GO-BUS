@@ -1,3 +1,15 @@
+<div class="badge-group">
+    <img src="https://img.shields.io/badge/STATUS-LIVE-1E90FF?style=for-the-badge&logoColor=000000" alt="status" />
+    <img src="https://img.shields.io/badge/VERSION-2.0--AI-1E90FF?style=for-the-badge&logoColor=000000" alt="version" />
+    <img src="https://img.shields.io/badge/BUILD-DEMO-1E90FF?style=for-the-badge&logoColor=000000" alt="demo" />
+    <img src="https://img.shields.io/badge/FIGMA-READY-1E90FF?style=for-the-badge&logoColor=000000" alt="figma" />
+    <img src="https://img.shields.io/badge/README-GITHUB-1E90FF?style=for-the-badge&logoColor=000000" alt="github" />
+</div>
+
+
+
+
+
 <div class="card">
     <!-- HEADER -->
     <div class="brand">
@@ -14,14 +26,7 @@
             <i class="fas fa-route"></i> Book · Track · Combine <i class="fas fa-arrow-right"></i> Metro · Bus · Auto · Cab
         </div>
     </div>
-    <!-- BADGES (status + version) -->
-    <div class="badge-group">
-        <img src="https://img.shields.io/badge/STATUS-LIVE-006400?style=for-the-badge&logo=vercel&logoColor=white" alt="status" />
-        <img src="https://img.shields.io/badge/VERSION-2.0--AI-006400?style=for-the-badge&logo=openai&logoColor=white" alt="version" />
-        <img src="https://img.shields.io/badge/BUILD-DEMO-006400?style=for-the-badge&logo=netlify&logoColor=white" alt="demo" />
-        <img src="https://img.shields.io/badge/FIGMA-READY-006400?style=for-the-badge&logo=figma&logoColor=white" alt="figma" />
-        <img src="https://img.shields.io/badge/README-GITHUB-006400?style=for-the-badge&logo=github&logoColor=white" alt="github" />
-    </div>
+    <!-- BADGES (status + versio
     <!-- divider -->
     <hr class="divider" />
     <!-- FEATURES (enhanced) -->
