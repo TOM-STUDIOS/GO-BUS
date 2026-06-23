@@ -16,41 +16,25 @@ With smart route planning, real-time tracking, digital ticket management, and AI
     <img src="https://img.shields.io/badge/FIGMA-READY-1E90FF?style=for-the-badge&logoColor=000000" alt="figma" />
     <img src="https://img.shields.io/badge/README-GITHUB-1E90FF?style=for-the-badge&logoColor=000000" alt="github" />
 </div>
+  <div align="center">
 
+AI Route Planning
+⬇
+Journey Discovery
+⬇
+Metro + Bus + Auto + Cab Integration
+⬇
+Real-Time Tracking
+⬇
+Digital Ticketing
+⬇
+Travel Alerts
+⬇
+Personalized Recommendations
+⬇
+Smart Mobility Experience
 
-
-
-
-<div class="card">
-    <!-- HEADER -->
-    <div class="brand">
-        <h1>
-            <i class="fas fa-bus-alt"></i> GoBus<span style="font-weight:300;color:#2a7a2a;">+</span>
-        </h1>
-        <div class="sub">
-            <span><i class="fas fa-robot" style="margin-right:6px;"></i> AI‑powered multimodal</span>
-        </div>
-    </div>
-    <!-- TAGLINE -->
-    <div style="text-align:center;">
-        <div class="tagline">
-            <i class="fas fa-route"></i> Book · Track · Combine <i class="fas fa-arrow-right"></i> Metro · Bus · Auto · Cab
-        </div>
-    </div>
-    <!-- BADGES (status + versio
-    <!-- divider -->
-    <hr class="divider" />
-    <!-- FEATURES (enhanced) -->
-    <div class="feature-grid">
-        <div class="feature-item"><i class="fas fa-brain"></i> AI Smart Route</div>
-        <div class="feature-item"><i class="fas fa-subway"></i> Metro + Bus + Auto</div>
-        <div class="feature-item"><i class="fas fa-taxi"></i> Cab integration</div>
-        <div class="feature-item"><i class="fas fa-location-dot"></i> Live multi‑track</div>
-        <div class="feature-item"><i class="fas fa-ticket"></i> Digital pass</div>
-        <div class="feature-item"><i class="fas fa-shield-alt"></i> Secure (demo)</div>
-        <div class="feature-item"><i class="fas fa-bell"></i> Smart alerts</div>
-        <div class="feature-item"><i class="fas fa-star"></i> AI recommendations</div>
-    </div>
+</div>
     <!-- TECH STACK (demo only: html, css, js, figma, netlify) -->
     <div class="tech-stack">
         <img src="https://img.shields.io/badge/HTML5-006400?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
