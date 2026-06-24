@@ -35,6 +35,7 @@ Instead of:
 Buying a bus ticket Then a metro ticket Then paying separately for an auto 
 </p>
 
+<h3>GUIDELINES</h3>
 <p align="justify">
 This repository contains only the source code  of the GoBus project. Assets, design files, environment variables, API keys, build files, and other project resources have been excluded from this repository for security and project management purposes.
 
