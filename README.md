@@ -42,7 +42,7 @@ To run the project successfully, additional configuration files and dependencies
 </p>
 
 <p>Copyright © 2026 Tom Studios. All Rights Reserved.</p>
-
+<br>
 <div class="badge-group">
     <img src="https://img.shields.io/badge/STATUS-LIVE-1E90FF?style=for-the-badge&logoColor=000000" alt="status" />
     <img src="https://img.shields.io/badge/VERSION - 2.0 -- AI-1E90FF?style=for-the-badge&logoColor=000000" alt="version" />
