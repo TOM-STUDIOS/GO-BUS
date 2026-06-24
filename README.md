@@ -1,6 +1,6 @@
-<H1>GO BUS</H1>
+<H1 align="center">GO BUS</H1>
 
-<h2 align="center">About GoBus</h2>
+<h2>About GoBus</h2>
 
 <p align="justify">
 GoBus is an intelligent mobility platform designed to simplify everyday travel by bringing multiple transportation services into a single experience. The platform enables users to plan, book, and manage journeys across buses, metro networks, auto-rickshaws, and cab services through a unified interface.
