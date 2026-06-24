@@ -50,6 +50,11 @@ To run the project successfully, additional configuration files and dependencies
     <img src="https://img.shields.io/badge/FIGMA-READY-1E90FF?style=for-the-badge&logoColor=000000" alt="figma" />
     <img src="https://img.shields.io/badge/README-GITHUB-1E90FF?style=for-the-badge&logoColor=000000" alt="github" />
 </div>
+<br>
+
+<br>
+
+<br>
 
 ![GoBus Mockup](https://raw.githubusercontent.com/TOM-STUDIOS/GO-BUS/f582820c938665c4ed87d84f04552d82c006d6d7/GO%20BUS%20MOCKUP.png)
 
