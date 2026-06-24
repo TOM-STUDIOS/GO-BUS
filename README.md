@@ -1,4 +1,4 @@
-<H1 align="center">GO BUS</H1>
+<H1 align="center" style= color:blue>GO BUS</H1>
 
 <h2>ABOUT</h2>
 
