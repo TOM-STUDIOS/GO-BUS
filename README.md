@@ -32,9 +32,7 @@ Go Bus eliminates the need to purchase separate tickets for different modes of t
 
 Instead of:
 
-① Buying a bus ticket 
-② Then a metro ticket 
-③ Then paying separately for an auto 
+Buying a bus ticket Then a metro ticket Then paying separately for an auto 
 </p>
 
 
