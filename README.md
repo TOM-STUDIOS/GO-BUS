@@ -49,3 +49,4 @@ To run the project successfully, additional configuration files and dependencies
     <img src="https://img.shields.io/badge/README-GITHUB-1E90FF?style=for-the-badge&logoColor=000000" alt="github" />
 </div>
 
+<p align="center">Copyright © 2026 Tom Studios. All Rights Reserved.</p>
