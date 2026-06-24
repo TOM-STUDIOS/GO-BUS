@@ -26,7 +26,16 @@ To make every journey simple, connected, and accessible through one intelligent 
 GoBus envisions a future where people can seamlessly travel across cities using buses, metros, autos, cabs, and other transport services from a single app—eliminating travel complexity and creating smarter, more sustainable urban mobility.
 </p>
 
+<h3>FEATURES</h3>
+<p align="justify"> 
+Go Bus eliminates the need to purchase separate tickets for different modes of transportation. Whether your trip includes a bus, metro, auto-rickshaw, or cab, a single ticket can cover the entire journey from your starting point to your final destination.
 
+Instead of:
+
+① Buying a bus ticket 
+② Then a metro ticket 
+③ Then paying separately for an auto 
+</p>
 
 
 <div class="badge-group">
