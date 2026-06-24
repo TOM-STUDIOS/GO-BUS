@@ -35,6 +35,11 @@ Instead of:
 Buying a bus ticket Then a metro ticket Then paying separately for an auto 
 </p>
 
+<p align="justify">
+This repository contains only the source code  of the GoBus project. Assets, design files, environment variables, API keys, build files, and other project resources have been excluded from this repository for security and project management purposes.
+
+To run the project successfully, additional configuration files and dependencies may be required.
+</p>
 
 <div class="badge-group">
     <img src="https://img.shields.io/badge/STATUS-LIVE-1E90FF?style=for-the-badge&logoColor=000000" alt="status" />
