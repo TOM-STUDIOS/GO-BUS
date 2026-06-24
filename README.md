@@ -15,4 +15,7 @@ With smart route planning, real-time tracking, digital ticket management, and AI
     <img src="https://img.shields.io/badge/README-GITHUB-1E90FF?style=for-the-badge&logoColor=000000" alt="github" />
 </div>
 
+<p align="center">
+  <img src="./assets/gobus-mockup.png" alt="GoBus iPhone Mockup" width="700">
+</p>
 
